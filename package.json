@@ -1,0 +1,23 @@
+{
+  "name": "fable-people-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "fable --watch",
+    "build": "fable && uglifyjs ./build/bundle.js -o ./build/bundle.min.js -m"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "fable-compiler": "^0.7.42",
+    "uglifyjs": "^2.4.10"
+  },
+  "dependencies": {
+    "fable-arch": "^0.10.0",
+    "fable-core": "^0.7.26",
+    "fable-powerpack": "0.0.19",
+    "virtual-dom": "^2.1.1"
+  }
+}
